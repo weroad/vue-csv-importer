@@ -299,6 +299,7 @@ const handleCsvImportSubmit = async (
   progressBar.finish()
 }
 </script>
+```
 
 ### Submit Handler Deep Dive
 
