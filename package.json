@@ -1,5 +1,5 @@
 {
-  "name": "@weroad/csv-importer",
+  "name": "@weroad/vue-csv-importer",
   "version": "1.0.0",
   "description": "A Vue3 CSV importer component with validation and editing capabilities",
   "repository": {

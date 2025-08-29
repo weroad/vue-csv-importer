@@ -217,9 +217,9 @@ You can see here a live demo of the result.
 
 <script setup lang="ts">
 import { z } from 'zod'
-import { CsvImporterModal } from '@weroad/csv-importer'
-import type { CsvImporterColumn, CsvImporterSubmitData } from '@weroad/csv-importer'
-import '@weroad/csv-importer/style.css'
+import { CsvImporterModal } from '@weroad/vue-csv-importer'
+import type { CsvImporterColumn, CsvImporterSubmitData } from '@weroad/vue-csv-importer'
+import '@weroad/vue-csv-importer/style.css'
 
 // Define columns
 const csvColumns: CsvImporterColumn[] = [
@@ -566,7 +566,7 @@ The package uses a **vue-i18n**-like syntax (less powerful) for [variables inter
 This will override the configuration on global scale, so you don't have to repeat them in every component usage.
 
 ```typescript
-// main.ts or plugins/csv-importer.ts
+// main.ts or plugins/vue-csv-importer.ts
 import { createApp } from 'vue'
 import { createCsvImporter } from '@weroad/vue-csv-importer'
 
