@@ -199,6 +199,7 @@ const handleFileUpload = async ({
 
 You can see here a live demo of the result.
 
+```vue
 <template>
   <CsvImporterModal
     :is-open="open"
